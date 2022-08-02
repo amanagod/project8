@@ -30,7 +30,7 @@ function sequence() {
 
 function playSound(name) {
   var sound = new Audio(
-    "C:/Users/PRASHANT PANCHAL/Desktop/my codes/html/sounds/" + name + ".mp3"
+    "sounds/" + name + ".mp3"
   );
   sound.play();
 }
